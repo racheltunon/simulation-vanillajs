@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skills Check</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="header"> 
+            <div id= 'logo'>
+                <img src="assets/piggy_bank.svg"> 
+                <h1>Budget Builder</h1>
+            </div>
+            <div id= "b-total">  
+                <h2>Budget Total:</h2>
+            <!-- add the total budget in header here -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="expenses">
+            <h3 id='monthly'>Monthly Expenses</h3>
+
+                <input list= 'items' type='image' src="assets/trash_can.svg"/>
+    
+        </div>
+        <div class="bill">
+            <h3>Add Bill</h3>
+            <div class= 'forms'>
+                <form id='items' action="/action_page.php">
+                    Name <input id="name" type="text" name="name" value="Name"><br>
+                    Amount <input id="amount"type="text" name="amount" value="Amount"><br><br>
+                    <!-- <input class="add" type="button" onclick='myFunction()' value='Add'> -->
+                    <button id='log-list'>Add</button>
+                </form>
+                    
+            <!-- <form id="name">Name</form>
+            <form id="amount">Amount</form> -->
+            </div>
+        </div>
+
+    </main>
+            
+        
+
+<script src="./index.js"></script>
+    
+</body>
+</html>
